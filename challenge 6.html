@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* background-color: lightgrey; */
+            display: flex;
+            justify-content: space-around;
+            margin: 2px;
+        }
+
+        .ls {
+            display: flex;
+            height: 80px;
+            padding: 10px;
+            /* padding-left: 200px; */
+            padding-top: 25px;
+
+        }
+
+        .ms {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding-top: 35px;
+            
+        }
+
+        .ms select{
+            border: none; 
+        }
+
+        .rs{
+            /* padding-right: 200px; */
+            padding-top: 70px;
+
+        }
+
+        .rs span button {
+            background-color: white;
+            border: 2px solid black;
+            font-weight:bold;
+            justify-items: center;
+             align-content: last baseline;
+             padding: 8px 10px;
+             
+        }
+        .rs span button:hover {
+            background-color: rgb(255, 242, 4);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="ls">
+                <img src="l1.png" alt="logo">
+            </div>
+            <div class="ms">
+                <select name="product" id="product">
+                    <option value="" disabled selected hidden>Products</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+                <select name="Pricing" id="Pricing">
+                    <option value="" disabled selected hidden>Pricing</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+                <select name="Resources" id="Resources">
+                    <option value="" disabled selected hidden>Resources</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+                <select name="Our Company" id="Our Company">
+                    <option value="" disabled selected hidden>Our Company</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+            </div>
+            <div class="rs">
+                <span><button>BUY NOW</button></span>
+                <span><button>English</button></span>
+                <span><button>◉</button></span>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
