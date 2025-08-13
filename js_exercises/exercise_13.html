@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 13</title>
+    <style>
+        .card {
+            border: 2px solid black;
+            display: flex;
+            width: 950px;
+            padding: 12px;
+            margin: 5px;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+        }
+
+        
+        .img img{
+            width: 200px;
+        }
+
+        .img{
+            position: relative;
+        }
+
+        .img .capsule {
+            position: absolute;
+            z-index: 10;
+            bottom: 4px;
+            right: 5px;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+            padding: 4px;
+            border-radius: 3px;
+            
+        }
+
+        .h1 {
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDf-xrqgUw55JSfKsoykKVhngkzRA"
+                    alt="">
+
+                <div class="capsule">31:22</div>
+
+            </div>
+            <div class="text">
+                <h1>Introduction to Backend | Sigma Web Dev Video #2</h1>
+                <p>CodeWithHarry . 727K views . 2 months ago</p>
+            </div>
+        </div>
+    </div>
+    <script src="exercise_13.js"></script>
+</body>
+
+</html>
